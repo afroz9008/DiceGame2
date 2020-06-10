@@ -81,7 +81,7 @@ function init() {
     currentScore = 0;
     deActivePlayer = 1;
     playingGame = true;
-    firstRound = [false, false];
+    firstRound = [true, true];
     document.getElementById("dice").style.display = "none";
     document.getElementById("playerScore-0").innerText = 0;
     document.getElementById("playerScore-1").innerText = 0;
